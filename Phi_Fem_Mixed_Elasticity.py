@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import multiphenics as mph 
 import mshr
 import time
-from matplotlib import rc, rcParams
 
 # plot parameters
 plt.style.use('bmh') 

@@ -2,10 +2,13 @@
 #sudo docker run --shm-size=15g --cpus=8 -ti -v $(pwd):/home/fenics/shared multiphenics/multiphenics
 import dolfin as df 
 import matplotlib.pyplot as plt 
-import mshr
-from matplotlib import rc, rcParams
 import multiphenics as mph
+import mshr
 import time
+import os
+
+if not os.path.exists("outputs"):
+    os.makedirs("outputs")
 
 # plot parameters
 plt.style.use('bmh') 

@@ -1,7 +1,7 @@
 import dolfin as df 
 import matplotlib.pyplot as plt 
 import mshr
-from vedo.dolfin import plot, interactive
+from vedo.dolfin import plot
 # plot parameters
 plt.style.use('bmh') 
 params = {'axes.labelsize': 28,
